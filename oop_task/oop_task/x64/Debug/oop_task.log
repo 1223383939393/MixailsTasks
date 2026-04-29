@@ -1,0 +1,3 @@
+﻿  Source.cpp
+Source.obj : error LNK2005: main уже определен в oop_task.obj
+D:\Safarov\c++\oop_task\x64\Debug\oop_task.exe : fatal error LNK1169: обнаружен многократно определенный символ - один или более
