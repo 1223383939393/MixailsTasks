@@ -1,0 +1,6 @@
+﻿  String.cpp
+D:\Safarov\c++\oopTask2\String.cpp(3,18): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Safarov\c++\oopTask2\String.cpp(13,17): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+  oopTask2.cpp
+  Создание кода...
+  oopTask2.vcxproj -> D:\Safarov\c++\oopTask2\x64\Debug\oopTask2.exe
