@@ -1,0 +1,5 @@
+﻿  Matrix.cpp
+D:\Safarov\c++\override1_3\Matrix.cpp(115,9): warning C4101: mat: неиспользованная локальная переменная
+  override1_3.cpp
+  Создание кода...
+  override1_3.vcxproj -> D:\Safarov\c++\override1_3\x64\Debug\override1_3.exe
