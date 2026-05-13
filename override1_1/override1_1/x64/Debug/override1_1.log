@@ -1,0 +1,5 @@
+﻿  Fraction.cpp
+  override1_1.cpp
+  Создание кода...
+D:\Safarov\c++\override1_1\Fraction.h(25,1): warning C4715: Fraction::NOD: значение возвращается не при всех путях выполнения
+  override1_1.vcxproj -> D:\Safarov\c++\override1_1\x64\Debug\override1_1.exe
