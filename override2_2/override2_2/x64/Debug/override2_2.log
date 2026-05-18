@@ -1,0 +1,10 @@
+﻿  Employee.cpp
+D:\Safarov\c++\override2_2\Employee.h(121,27): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "Employee.cpp")
+  
+  override2_2.cpp
+D:\Safarov\c++\override2_2\Employee.h(121,27): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "override2_2.cpp")
+  
+  Создание кода...
+  override2_2.vcxproj -> D:\Safarov\c++\override2_2\x64\Debug\override2_2.exe

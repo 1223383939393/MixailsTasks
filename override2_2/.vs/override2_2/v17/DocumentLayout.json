@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Safarov\\c\u002B\u002B\\override2_2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{86126CA7-E8C8-49E2-8A74-39D845B97C9A}|override2_2.vcxproj|D:\\Safarov\\c\u002B\u002B\\override2_2\\override2_2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{86126CA7-E8C8-49E2-8A74-39D845B97C9A}|override2_2.vcxproj|solutionrelative:override2_2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86126CA7-E8C8-49E2-8A74-39D845B97C9A}|override2_2.vcxproj|D:\\Safarov\\c\u002B\u002B\\override2_2\\Employee.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{86126CA7-E8C8-49E2-8A74-39D845B97C9A}|override2_2.vcxproj|solutionrelative:Employee.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86126CA7-E8C8-49E2-8A74-39D845B97C9A}|override2_2.vcxproj|D:\\Safarov\\c\u002B\u002B\\override2_2\\Employee.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{86126CA7-E8C8-49E2-8A74-39D845B97C9A}|override2_2.vcxproj|solutionrelative:Employee.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Employee.cpp",
+              "DocumentMoniker": "D:\\Safarov\\c\u002B\u002B\\override2_2\\Employee.cpp",
+              "RelativeDocumentMoniker": "Employee.cpp",
+              "ToolTip": "D:\\Safarov\\c\u002B\u002B\\override2_2\\Employee.cpp",
+              "RelativeToolTip": "Employee.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-18T11:56:12.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Employee.h",
+              "DocumentMoniker": "D:\\Safarov\\c\u002B\u002B\\override2_2\\Employee.h",
+              "RelativeDocumentMoniker": "Employee.h",
+              "ToolTip": "D:\\Safarov\\c\u002B\u002B\\override2_2\\Employee.h",
+              "RelativeToolTip": "Employee.h",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAkwIIAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-05-18T11:56:09.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "override2_2.cpp",
+              "DocumentMoniker": "D:\\Safarov\\c\u002B\u002B\\override2_2\\override2_2.cpp",
+              "RelativeDocumentMoniker": "override2_2.cpp",
+              "ToolTip": "D:\\Safarov\\c\u002B\u002B\\override2_2\\override2_2.cpp",
+              "RelativeToolTip": "override2_2.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-18T11:55:22.828Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
