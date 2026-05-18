@@ -1,0 +1,5 @@
+﻿  Fraction.cpp
+  drob`.cpp
+  Создание кода...
+D:\Safarov\c++\drob`\Fraction.cpp(21,1): warning C4715: Fraction::NOD: значение возвращается не при всех путях выполнения
+  drob`.vcxproj -> D:\Safarov\c++\drob`\x64\Debug\drob`.exe
