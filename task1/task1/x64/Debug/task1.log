@@ -1,0 +1,4 @@
+﻿  task1.cpp
+D:\Safarov\c++\task1\task1.cpp(20,13): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Safarov\c++\task1\task1.cpp(56,14): warning C4834: удаление возвращаемого значения функции с атрибутом [[nodiscard]]
+  task1.vcxproj -> D:\Safarov\c++\task1\x64\Debug\task1.exe

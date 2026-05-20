@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Safarov\\c\u002B\u002B\\task1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C021CB25-E552-4AC2-A4BF-878F0D3035B8}|task1.vcxproj|D:\\Safarov\\c\u002B\u002B\\task1\\task1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C021CB25-E552-4AC2-A4BF-878F0D3035B8}|task1.vcxproj|solutionrelative:task1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "task1.cpp",
+              "DocumentMoniker": "D:\\Safarov\\c\u002B\u002B\\task1\\task1.cpp",
+              "RelativeDocumentMoniker": "task1.cpp",
+              "ToolTip": "D:\\Safarov\\c\u002B\u002B\\task1\\task1.cpp",
+              "RelativeToolTip": "task1.cpp",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAF4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-20T10:18:46.136Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
