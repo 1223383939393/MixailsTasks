@@ -1,0 +1,73 @@
+﻿  Second.cpp
+D:\Safarov\c++\smartarray\Second.h(47,6): error C2365: Second<T>::size: переопределение; предыдущим определением было "данные-член"
+  (компиляция исходного файла "Second.cpp")
+      D:\Safarov\c++\smartarray\Second.h(10,6):
+       см. объявление "Second<T>::size"
+      D:\Safarov\c++\smartarray\Second.h(47,6):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          D:\Safarov\c++\smartarray\Second.h(7,7):
+          при компиляции шаблона класса "Second"
+  
+D:\Safarov\c++\smartarray\Second.h(48,3): error C2059: синтаксическая ошибка: return
+  (компиляция исходного файла "Second.cpp")
+  
+D:\Safarov\c++\smartarray\Second.h(48,14): error C2238: непредвиденные лексемы перед ";"
+  (компиляция исходного файла "Second.cpp")
+  
+D:\Safarov\c++\smartarray\Second.h(50,2): error C2144: синтаксическая ошибка: перед "bool" требуется ";"
+  (компиляция исходного файла "Second.cpp")
+  
+  smartarray.cpp
+D:\Safarov\c++\smartarray\Second.h(47,6): error C2365: Second<T>::size: переопределение; предыдущим определением было "данные-член"
+  (компиляция исходного файла "smartarray.cpp")
+      D:\Safarov\c++\smartarray\Second.h(10,6):
+       см. объявление "Second<T>::size"
+      D:\Safarov\c++\smartarray\Second.h(47,6):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          D:\Safarov\c++\smartarray\Second.h(7,7):
+          при компиляции шаблона класса "Second"
+  
+D:\Safarov\c++\smartarray\Second.h(48,3): error C2059: синтаксическая ошибка: return
+  (компиляция исходного файла "smartarray.cpp")
+  
+D:\Safarov\c++\smartarray\Second.h(48,14): error C2238: непредвиденные лексемы перед ";"
+  (компиляция исходного файла "smartarray.cpp")
+  
+D:\Safarov\c++\smartarray\Second.h(50,2): error C2144: синтаксическая ошибка: перед "bool" требуется ";"
+  (компиляция исходного файла "smartarray.cpp")
+  
+D:\Safarov\c++\smartarray\Second.h(47,6): error C2207: "Second<T>::size": член шаблона класса не может получать тип функции
+  (компиляция исходного файла "smartarray.cpp")
+      D:\Safarov\c++\smartarray\Second.h(47,6):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          D:\Safarov\c++\smartarray\smartarray.cpp(8,17):
+          выполняется компиляция ссылки на экземпляр класс шаблон функции "Second<int>"
+  
+D:\Safarov\c++\smartarray\Second.h(47,6): error C2365: Second<int>::size: переопределение; предыдущим определением было "данные-член"
+  (компиляция исходного файла "smartarray.cpp")
+      D:\Safarov\c++\smartarray\Second.h(10,6):
+       см. объявление "Second<int>::size"
+  
+D:\Safarov\c++\smartarray\smartarray.cpp(15,38): error C2248: Second<int>::size: невозможно обратиться к private член, объявленному в классе "Second<int>"
+      D:\Safarov\c++\smartarray\Second.h(10,6):
+       см. объявление "Second<int>::size"
+      D:\Safarov\c++\smartarray\Second.h(7,7):
+       см. объявление "Second<int>"
+  
+D:\Safarov\c++\smartarray\smartarray.cpp(15,38): error C2064: результатом вычисления фрагмента не является функция, принимающая 0 аргументов
+D:\Safarov\c++\smartarray\smartarray.cpp(16,44): error C2039: "empty": не является членом "Second<int>".
+      D:\Safarov\c++\smartarray\Second.h(7,7):
+       см. объявление "Second<int>"
+  
+D:\Safarov\c++\smartarray\smartarray.cpp(19,33): error C2248: Second<int>::size: невозможно обратиться к private член, объявленному в классе "Second<int>"
+      D:\Safarov\c++\smartarray\Second.h(10,6):
+       см. объявление "Second<int>::size"
+      D:\Safarov\c++\smartarray\Second.h(7,7):
+       см. объявление "Second<int>"
+  
+D:\Safarov\c++\smartarray\smartarray.cpp(19,33): error C2064: результатом вычисления фрагмента не является функция, принимающая 0 аргументов
+D:\Safarov\c++\smartarray\smartarray.cpp(27,26): error C2039: "find": не является членом "Second<int>".
+      D:\Safarov\c++\smartarray\Second.h(7,7):
+       см. объявление "Second<int>"
+  
+  Создание кода...
