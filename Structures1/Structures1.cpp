@@ -1,77 +1,128 @@
 #include <iostream>
 using namespace std;
 
+// -------------------------------------------------------------------
+// ШАБЛОННЫЙ СТЕК (может хранить данные любого типа)
+// -------------------------------------------------------------------
+
+// Структура "элемент стека" (узел)
+// T - это тип данных, который будет храниться (например, int, double, string...)
 template<typename T>
 struct elem {
-    int value;
-    elem* next = nullptr;
+    T value;            // Здесь лежат данные (раньше было int, теперь T)
+    elem* next = nullptr; // Указатель на следующий элемент (как верёвочка)
 };
+
+// Функция "положить" (push)
+// Принимает: ссылку на указатель вершины стека и значение, которое кладём
 template<typename T>
-void push(elem<T>*& stack, int value) {
-    elem<T>* newel = new elem;
-    newel->value = value;
+void push(elem<T>*& stack, const T& value) {
+    // Создаём новый узел в памяти
+    elem<T>* newel = new elem<T>;
+    newel->value = value;   // Кладём данные в новый узел
 
     if (!stack) {
+        // Если стек пуст, новый узел становится единственным (вершиной)
         stack = newel;
     }
     else {
-        newel->next = stack;
-        stack = newel;
+        // Если стек не пуст, новый узел цепляем сверху
+        newel->next = stack; // Новый узел показывает на старую вершину
+        stack = newel;       // Теперь новый узел - вершина
     }
 }
+
+// Функция "забрать" (pop)
+// Забирает верхний элемент, возвращает его данные через параметр value (по ссылке)
+// Возвращает true, если элемент был, и false, если стек пуст
 template<typename T>
-bool pop(elem<T>*& stack, int value) {
-    if (!stack) return false;
-    elem<T>* rem = stack;
-    value = stack->value;
-    stack = stack->next;
-    delete rem;
-    return true;
+bool pop(elem<T>*& stack, T& value) {
+    if (!stack) return false;       // Стек пуст - нечего забирать
+
+    elem<T>* rem = stack;           // Запоминаем старую вершину
+    value = stack->value;           // Копируем данные из вершины в value
+
+    stack = stack->next;            // Сдвигаем вершину на следующий элемент
+    delete rem;                     // Удаляем старую вершину
+    return true;                    // Успех
 }
+
+// Функция "посмотреть вершину" (peek)
+// Возвращает указатель на значение вершины (чтобы не копировать)
+// Если стек пуст, возвращает nullptr
 template<typename T>
-const int* peek(const elem<T>* stack) {
+const T* peek(const elem<T>* stack) {
     if (!stack) return nullptr;
-    return &stack->value;
+    return &stack->value;           // Адрес поля value в верхнем элементе
 }
+
+// Функция "следующий элемент" (next_elem)
+// Принимает указатель на текущий элемент, возвращает указатель на следующий
+// Если нет следующего, возвращает nullptr
 template<typename T>
 elem<T>* next_elem(const elem<T>* elem) {
     if (elem) return elem->next;
     return nullptr;
 }
+
+// Функция "последний элемент" (last)
+// Идёт по цепочке до конца и возвращает указатель на последний элемент
+// Если стек пуст, возвращает nullptr
 template<typename T>
 elem<T>* last(const elem<T>* el) {
-    if (el) while (el->next) el = el->next;
-    return (elem*)el;
+    if (el) {
+        while (el->next) el = el->next; // Идём до тех пор, пока есть next
+    }
+    return (elem<T>*)el; // Приведение типа (убираем const, но это не страшно для чтения)
 }
+
+// Функция "очистить стек" (clear)
+// Удаляет все элементы, освобождает память
 template<typename T>
 void clear(elem<T>*& stack) {
     while (stack) {
-        elem* rem = stack;
-        stack = stack->next;
-        delete rem;
+        elem<T>* rem = stack;   // Запоминаем текущую вершину
+        stack = stack->next;    // Сдвигаем вершину на следующий
+        delete rem;             // Удаляем старую вершину
     }
 }
 
+// -------------------------------------------------------------------
+// ВТОРОЕ ЗАДАНИЕ: стек из пар чисел с заменой по сумме
+// -------------------------------------------------------------------
 
+// Структура "пара" (два целых числа)
 struct Pair {
     int first;
     int second;
-    Pair* next = nullptr;
+    Pair* next = nullptr;   // Указатель на следующий элемент (для стека)
 };
 
+// Функция замены элементов, у которых сумма равна x
+// Принимает стек (указатель на вершину) и число x.
+// Проходит по всем элементам, если сумма полей равна x - заменяет на (0,0)
 void checkSumm(Pair*& stack, int x) {
-    Pair* curr = stack;
-    if (stack == nullptr) return;
+    if (stack == nullptr) return;   // Пустой стек - выходим
+
+    Pair* curr = stack;             // Начинаем с вершины
     while (curr != nullptr) {
-        if (curr->first + curr->second == x) {
+        int sum = curr->first + curr->second;
+        if (sum == x) {
             curr->first = 0;
             curr->second = 0;
         }
-        curr = curr->next;
+        curr = curr->next;          // Переходим к следующему элементу
     }
 }
 
-int main()
-{
+// -------------------------------------------------------------------
+// ПРИМЕР ИСПОЛЬЗОВАНИЯ (main)
+// -------------------------------------------------------------------
+int main() {
     cout << "Hello World!\n";
+
+    // Здесь можно написать тесты для стека или для пар
+    // Например, создать стек из пар и вызвать checkSumm
+
+    return 0;
 }
