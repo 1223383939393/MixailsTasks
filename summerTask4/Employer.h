@@ -9,18 +9,31 @@ public:
 	virtual void Print() = 0;
 };
 
-class President
+class President : public Employer
 {
-
+	string companyName;
+	int allMoney;
+public:
+	void Print() override {
+		cout << "What`s your company name? " << companyName << " How much money do u have? " << allMoney << endl;
+	}
 };
 
-class Manager
+class Manager : public Employer
 {
-
+	int workersCount;
+public:
+	void Print() override {
+		cout << "How many subordinates do u have? " << workersCount << endl;
+	}
 };
 
-class Worker
+class Worker : public Employer
 {
-
+	int salary;
+public:
+	void Print() override {
+		cout << "What salary do u have? " << salary << endl;
+	}
 };
 
