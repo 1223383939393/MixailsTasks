@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Safarov\\c\u002B\u002B\\summerTask1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A119D428-4130-40BC-9463-DE35FE266CB3}|summerTask1.vcxproj|D:\\Safarov\\c\u002B\u002B\\summerTask1\\summerTask1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A119D428-4130-40BC-9463-DE35FE266CB3}|summerTask1.vcxproj|solutionrelative:summerTask1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A119D428-4130-40BC-9463-DE35FE266CB3}|summerTask1.vcxproj|D:\\Safarov\\c\u002B\u002B\\summerTask1\\Venicle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A119D428-4130-40BC-9463-DE35FE266CB3}|summerTask1.vcxproj|solutionrelative:Venicle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A119D428-4130-40BC-9463-DE35FE266CB3}|summerTask1.vcxproj|D:\\Safarov\\c\u002B\u002B\\summerTask1\\Venicle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A119D428-4130-40BC-9463-DE35FE266CB3}|summerTask1.vcxproj|solutionrelative:Venicle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Venicle.cpp",
+              "DocumentMoniker": "D:\\Safarov\\c\u002B\u002B\\summerTask1\\Venicle.cpp",
+              "RelativeDocumentMoniker": "Venicle.cpp",
+              "ToolTip": "D:\\Safarov\\c\u002B\u002B\\summerTask1\\Venicle.cpp",
+              "RelativeToolTip": "Venicle.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-06-01T10:46:34.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Venicle.h",
+              "DocumentMoniker": "D:\\Safarov\\c\u002B\u002B\\summerTask1\\Venicle.h",
+              "RelativeDocumentMoniker": "Venicle.h",
+              "ToolTip": "D:\\Safarov\\c\u002B\u002B\\summerTask1\\Venicle.h",
+              "RelativeToolTip": "Venicle.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGIAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-06-01T10:46:31.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "summerTask1.cpp",
+              "DocumentMoniker": "D:\\Safarov\\c\u002B\u002B\\summerTask1\\summerTask1.cpp",
+              "RelativeDocumentMoniker": "summerTask1.cpp",
+              "ToolTip": "D:\\Safarov\\c\u002B\u002B\\summerTask1\\summerTask1.cpp*",
+              "RelativeToolTip": "summerTask1.cpp*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-06-01T10:44:44.914Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
