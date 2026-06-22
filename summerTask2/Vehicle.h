@@ -103,13 +103,13 @@ public:
 // КЛАСС "АВТОМОБИЛЬ"
 // Объединяет все компоненты (колеса, двигатель, двери) через множественное наследование
 // ===============================================================
-class Car : public Wheels, public Engine, public Door {
+class Vehicle : public Wheels, public Engine, public Door {
     string carModel;   // модель автомобиля
     int carYear;       // год выпуска автомобиля
 
 public:
     // Главный конструктор (принимает все параметры для всех частей автомобиля)
-    Car(string model, int year,
+    Vehicle(string model, int year,
         int wCount, double wRadius, string wType,
         int ePower, double eVolume, string eType,
         int dCount, bool dOpened)
@@ -121,28 +121,28 @@ public:
 
     // Делегирующий: модель, год + колеса по умолчанию
     // Колеса: 4 шт, радиус 16, тип "summer"
-    Car(string model, int year,
+    Vehicle(string model, int year,
         int ePower, double eVolume, string eType,
         int dCount, bool dOpened)
-        : Car(model, year, 4, 16.0, "summer", ePower, eVolume, eType, dCount, dOpened) {
+        : Vehicle(model, year, 4, 16.0, "summer", ePower, eVolume, eType, dCount, dOpened) {
     }
 
     // Делегирующий: модель, год + двигатель и двери по умолчанию
     // Двигатель: 150 л.с., объем 2.0, тип "petrol"
     // Двери: 4 шт, закрыты
-    Car(string model, int year, int wCount, double wRadius, string wType)
-        : Car(model, year, wCount, wRadius, wType, 150, 2.0, "petrol", 4, false) {
+    Vehicle(string model, int year, int wCount, double wRadius, string wType)
+        : Vehicle(model, year, wCount, wRadius, wType, 150, 2.0, "petrol", 4, false) {
     }
 
     // Делегирующий: только модель и год
     // Всё остальное по умолчанию
-    Car(string model, int year)
-        : Car(model, year, 4, 16.0, "summer", 150, 2.0, "petrol", 4, false) {
+    Vehicle(string model, int year)
+        : Vehicle(model, year, 4, 16.0, "summer", 150, 2.0, "petrol", 4, false) {
     }
 
     // Делегирующий: без параметров
     // Модель "Unknown", год 2020, остальное по умолчанию
-    Car() : Car("Unknown", 2020, 4, 16.0, "summer", 150, 2.0, "petrol", 4, false) {}
+    Vehicle() : Vehicle("Unknown", 2020, 4, 16.0, "summer", 150, 2.0, "petrol", 4, false) {}
 
     // Вывод полной информации об автомобиле
     // Вызывает методы showInfo() всех родительских классов

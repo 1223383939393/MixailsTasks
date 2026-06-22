@@ -33,13 +33,13 @@ public:
 // ===============================================================
 // КЛАСС "АВТОМОБИЛЬ" - наследник Venicle
 // ===============================================================
-class Car : public Venicle {
+class Car1 : public Venicle {
 public:
     // Конструкторы - все вызывают конструктор Venicle и устанавливают тариф 10 руб/км
-    Car(string model, int year) : Venicle(model, year) { rate = 10; }
-    Car(string model) : Venicle(model, 0) { rate = 10; }
-    Car(int year) : Venicle("", year) { rate = 10; }
-    Car() : Venicle("", 0) { rate = 10; }
+    Car1(string model, int year) : Venicle(model, year) { rate = 10; }
+    Car1(string model) : Venicle(model, 0) { rate = 10; }
+    Car1(int year) : Venicle("", year) { rate = 10; }
+    Car1() : Venicle("", 0) { rate = 10; }
 
     // Переопределяем функцию расчёта времени
     // Формула: время = расстояние / скорость (целочисленное деление)
